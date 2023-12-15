@@ -1,0 +1,1012 @@
+{"intents": [
+  {"tag": "sapaan",
+    "patterns": [
+      "Halo",
+      "Hi",
+      "Selamat Pagi",
+      "Selamat Siang",
+      "Selamat Malam",
+      "Salam",
+      "Assalamualaikum",
+      "Mari kita berbicara",
+      "Salam kenal",
+      "Hai, kawan!",
+      "Hai, sobat!",
+      "Salam sejahtera",
+      "p",
+      "oi",
+      "oy",
+      "spada",
+      "uy",
+      "."
+    ],
+    "responses": [
+      "Halo",
+      "Selamat datang",
+      "Apa yang bisa saya bantu?",
+      "Ada yang perlu diobrolkan?",
+      "Waalaikumusslaam",
+      "Mari kita berbicara",
+      "Salam kenal",
+      "Hai",
+      "Hai, kawan!",
+      "Hai, sobat!",
+      "Halo!",
+      "Apa yang bisa saya bantu untukmu?"
+    ]
+  },
+  {"tag": "pamitan",
+      "patterns": [
+        "terima kasih",
+        "terimakasih",
+        "terimakasih banyak",
+        "terima kasih",
+        "makasih",
+        "dadah",
+        "Dah",
+        "Daah",
+        "adios",
+        "okay",
+        "oke",
+        "Selamat Tinggal",
+        "Semoga harimu penuh berkah.",
+        "Sukses untukmu!",
+        "Hingga kita kembali bertemu.",
+        "Terima kasih atas waktu dan perhatiannya.",
+        "bye"
+      ],
+      "responses": [
+        "Senang bisa membantu!",
+        "Semoga kita bisa berinteraksi lagi di lain waktu.",
+        "Sampai jumpa, semoga harimu menyenangkan!",
+        "Adios! Hasta luego.",
+        "semoga bermanfaat.",
+        "yoi",
+        "bye",
+        "dadah",
+        "bye, hiks"
+      ]
+    },
+    {"tag": "hukumq",
+      "patterns": [
+        "apa itu HukumQ ?",
+        "Apa yang dimaksud dengan HukumQ?",
+        "Bisakah Anda menjelaskan apa itu HukumQ?",
+        "HukumQ itu apa?",
+        "Apa definisi HukumQ?",
+        "Apa HukumQ?",
+        "HukumQ",
+        "HukumQ apa?",
+        "HukumQ arti",
+        "Arti HukumQ",
+        "Apa HukumQ",
+        "HukumQ itu seperti apa?",
+        "Tolong jelaskan istilah HukumQ.",
+        "Apakah Anda bisa memberikan definisi singkat tentang HukumQ?",
+        "Jelaskan HukumQ",
+        "Jelaskan apa itu HukumQ"
+      ],
+      "responses": [
+        "HukumQ adalah aplikasi yang memberikan jawaban terkait pertanyaan hukum tertulis di Indonesia.",
+        "HukumQ adalah aplikasi yang fokus memberikan jawaban terkait pertanyaan hukum tertulis di Indonesia",
+        "Hmm, terdengar seperti nama saya. Kalo benar berarti itu adalah aplikasi chatbot yang dibuat oleh peserta Kampus Merdeka Bangkit 2023 batch 2. aplikasi ini dibuat agar bisa menjelaskan hukum tertulis di indonesia.",
+        "HukumQ adalah aplikasi yang bisa menjawab pertanyaan tentang hukum tertulis di indonesia. Belum semua hukum tertulis sih, hanya sebagian pada bidang yang kecil, karena saya masih dalam versi pengembangan."
+      ]
+    },
+    {"tag": "siapa",
+      "patterns": [
+        "Kamu siapa ?",
+        "Bisa kenalan nggak?",
+        "Identitas kamu apa?",
+        "Boleh tahu siapa kamu?",
+        "Kamu punya nama?",
+        "Sebutkan siapa diri kamu.",
+        "Siapakah yang sedang berbicara?",
+        "Apakah kamu bisa memperkenalkan diri?",
+        "Nama panggilan kamu apa?",
+        "Siapa yang,sedang online di sini?",
+        "Tolong perkenalkan dirimu.",
+        "Nama?",
+        "siapa?",
+        "Nama mu",
+        "NamaMu",
+        "apa nama apikasi ini?"
+      ],
+      "responses": [
+        "Saya adalah HukumQ",
+        "aplikasi yang dibangun untuk membantu memahami hukum tertulis tertulis di indonesia, HukumQ",
+        "Saya merupakan HukumQ",
+        "HukumQ, platform untuk menjawab pertanyaan seputar hukum di Indonesia.",
+        "HukumQ di sini",
+        "HukumQ hadir untuk mempermudah pemahaman hukum tertulis di Indonesia.",
+        "Saya adalah HukumQ, solusi untuk pertanyaan-pertanyaan hukum Anda.",
+        "HukumQ hadir sebagai panduan hukum online di Indonesia.",
+        "Saya adalah HukumQ, platform pintar untuk memahami peraturan hukum di Indonesia.",
+        "HukumQ di sini untuk menjawab pertanyaan hukum Anda",
+        "Saya adalah HukumQ, sahabat untuk menjelaskan hukum tertulis Indonesia.",
+        "HukumQ",
+        "Chatbot HukumQ",
+        "Sebenarnya nama saya adalah HukumQ, tapi mungkin dalam konteks chat ini lebih tepat HukumMU deh"
+      ]
+    },
+    {"tag": "kabar",
+      "patterns": ["bagaimana kabarmu?",
+                   "apa kabar",
+                   "apakah kamu baik?",
+                   "kabarmu bagaimana",
+                   "kabarmu apa"
+                   ],
+      "responses": ["kabar saya baik, bagaimana dengan mu?",
+                    "kabar saya baik, ada yang bisa saya bantu?"
+                    ]
+    },
+    {"tag": "baikjuga",
+      "patterns": ["saya baik",
+                   "alhamdulillah",
+                   "saya luar biasa",
+                   "saya gembira",
+                   "baik juga"
+                   ],
+      "responses": ["syukur lah, ada yang bisa saya bantu?"]
+    },
+    {"tag": "ada",
+      "patterns": ["ada",
+                   "saya memerlukan bantuan anda",
+                   "saya perlu bantuan",
+                   "bisakah saya minta tolong",
+                   "tolong bantu saya"
+                   ],
+      "responses": ["tentu saya akan membantu semampu saya, silahkan sebutkan pertanyaan anda"]
+    },
+    {"tag": "kemampuan",
+      "patterns": ["apa kemampuan hukumQ",
+                   "HukumQ bisa apa saja",
+                   "apa yang bisa dilakukan hukumQ",
+                   "dimana batas hukumQ",
+                   "HUKUMQ kekuatanya apa?",
+                   "apa kelebihan hukumQ"
+                   ],
+      "responses": ["Saat ini saya (HukumQ), bisa menjawab penjelasan hukum tertulis tentang praperadilan di indonesia dan sebagian kecil tentang hukum tertulis di Indonesia"]
+    },
+    {"tag": "cuaca",
+      "patterns": ["bagaimana cuaca saat ini",
+                   "cuaca saat ini bagaimana",
+                   "apakah sekarang hujan",
+                   "apakah hari ini cerah",
+                   "apa sekarang hujan",
+                   "bagaimana perkiraan cuaca saat ini?",
+                   "cuaca"
+                   ],
+      "responses": ["Saya berharap bisa menjawab pertanyaan anda, tapi sayangnya saya tidak bisa menjawab anda. Karena saya tidak memmiliki akses langsung ke database cuaca secara realtime.",
+                    "Bencana besar!, saya tidak bisa menjawab pertanyaan itu karena saya hanya bisa menjawab pertanyaan tentang hukum tertulis di indonesia dan saat ini fokus ke praperadilan di indonesia."]
+    },
+    {"tag": "Hukumk",
+      "patterns": ["hukumk",
+                   "hukumku",
+                   "apa itu hukumku",
+                   "hukumk itu apa",
+                   "apa fungsi hukumku",
+                   "apa kelebihan hukumk"
+                   ],
+      "responses": ["Aduh... sepertinya anda salah mengeja nama saya. Nama saya HukumQ pake 'Q",
+                    "HukumQ kali kak."]
+    },
+    {"tag": "lagi",
+      "patterns": ["lagi",
+                   "sebutkan lagi",
+                   "apa lagi",
+                   "teruskan",
+                   "lanjutkan",
+                   "lanjut"
+                   ],
+      "responses": ["apa yang dilanjutkan kak?"
+                    ]
+    },
+    {"tag": "yang_tadi",
+      "patterns": ["yang tadi?",
+                   "yang di atas",
+                   "sebelumnya",
+                   "yang sebelumnya saya sebutkan",
+                   "pertanyaan sebelumnya",
+                   "lanjut"
+                   ],
+      "responses": ["Maaf kak, kayaknya pertanyaan kakak kurang lengkap deh, saya kurang paham maksud kakak"
+                    ]
+    },
+    {"tag": "hukum",
+      "patterns": ["apa itu hukum",
+                   "hukum",
+                   "pengertian hukum",
+                   "maksud hukum",
+                   "defenisi hukum"
+                   ],
+      "responses": ["Hukum adalah undang-undang yang dibuat dan ditegakkan melalui lembaga sosial atau pemerintah untuk mengatur perilaku masyarakat."]
+    },
+    {"tag": "definisi_praperadilan",
+      "patterns": [
+        "Apa itu Praperadilan?",
+        "Definisi Praperadilan",
+        "praperadilan",
+        "pengertian praperadilan",
+        "Apa yang dimaksud dengan praperadilan?",
+        "Apa yang dapat diperiksa melalui praperadilan?"
+      ],
+      "responses": [
+        "\nPraperadilan adalah proses hukum yang memberikan wewenang kepada pengadilan untuk memeriksa keabsahan suatu penangkapan, penahanan, penghentian penyidikan, atau penghentian penuntutan sebelum kasus itu diajukan ke pengadilan pidana.\nTujuan Praperadilan adalah melindungi hak asasi manusia dan memastikan bahwa tindakan penegak hukum sesuai dengan ketentuan hukum yang berlaku.",
+        "\nPraperadilan adalah suatu proses hukum yang bertujuan untuk menguji keabsahan, keberlanjutan, atau kesesuaian suatu tindakan hukum yang dilakukan oleh penegak hukum sebelum perkara dibawa ke pengadilan. Praperadilan memberikan kesempatan kepada pihak yang dianggap menjadi korban tindakan hukum yang dianggap melanggar hak-haknya untuk mengajukan permohonan kepada pengadilan guna memeriksa dan menilai keabsahan atau keberlanjutan tindakan tersebut.\nTujuan dari praperadilan adalah melindungi hak-hak individu terhadap tindakan yang dianggap melanggar hak asasi manusia atau hukum lainnya sebelum masuk ke dalam proses pengadilan yang lebih lanjut. Praperadilan dapat diajukan terhadap berbagai tindakan hukum, seperti penangkapan, penahanan, penggeledahan, penyitaan, atau tindakan hukum lainnya yang dianggap merugikan hak-hak individu.\nProses praperadilan seringkali melibatkan pemeriksaan bukti-bukti dan argumen-argumen hukum untuk menentukan apakah tindakan hukum yang dilakukan oleh aparat hukum sesuai dengan ketentuan hukum yang berlaku. Jika praperadilan diterima, maka tindakan hukum tersebut dapat dinyatakan tidak sah atau harus dihentikan. Jika ditolak, perkara dapat melanjutkan ke proses pengadilan lebih lanjut. Praperadilan menjadi salah satu mekanisme penting dalam menjaga keadilan dan perlindungan hak asasi manusia dalam sistem hukum suatu negara.",
+        "\nPraperadilan adalah proses hukum yang memberikan kesempatan pada seseorang untuk mengajukan permohonan kepada pengadilan jika dia merasa hak-haknya dilanggar oleh tindakan hukum, seperti penangkapan atau penyitaan. Ini memungkinkan pengadilan untuk memeriksa keabsahan tindakan tersebut sebelum masuk ke proses pengadilan lebih lanjut. Praperadilan bertujuan melindungi hak-hak individu dari tindakan hukum yang mungkin tidak sesuai dengan hukum. Jika diterima, tindakan tersebut dapat dinyatakan tidak sah. Jika ditolak, perkara akan melanjutkan ke proses pengadilan berikutnya. Praperadilan membantu menjaga keadilan dan hak asasi manusia dalam sistem hukum.",
+        "\nPraperadilan adalah wewenang pengadilan negeri untuk memeriksa dan memutus menurut cara yang diatur dalam undang-undang ini, tentang: \n a.sah atau tidaknya suatu penangkapan dan atau penahanan atas permintaan tersangka atau keluarganya atau pihak lain atas kuasa tersangka;\n b.sah atau tidaknya penghentian penyidikan atau penghentian penuntutan atas permintaan demi tegaknya hukum dan keadilan;\n c.permintaan ganti kerugian atau rehabilitasi oleh tersangka atau keluarganya atau pihak lain atas kuasanya yang perkaranya tidak diajukan ke pengadilan."
+      ]
+    },
+    {"tag": "KUHAP",
+      "patterns": ["apa itu KUHAP?",
+                   "apa kepanjangan dari KUHAP",
+                   "KUHAP"
+                   ],
+      "responses": ["KUHAP adalah Kitab Undang-undang Hukum Acara Pidana yang merupakan salah satu dari sumber hukum tertulis di indonesia"]
+    },
+    {"tag": "Jumlah_pasal_KUHAP",
+      "patterns": ["berapa jumlah pasal dalam KUHAP",
+                   "Jumlah Pasal KUHAP",
+                   "Pasal KUHAP",
+                   "berapa jumlah pasal dalam KUHP",
+                   "Jumlah Pasal KUHP",
+                   "Pasal KUHP"
+                   ],
+      "responses":[
+        "Jumlah pasal dalam KUHAP adalah __ dan __ ayat. Yaitu : \na."
+      ]
+    },
+    {"tag": "Jumlah_pasal_praperadilan",
+      "patterns": ["berapa jumlah pasal yang membahas praperadilan",
+                   "Pasal praperadilan",
+                   "jumlah pasal praperadilan",
+                   "apa saja pasal yang membahas tentang praperadilan?"
+                   ],
+      "responses": [
+        "Jumlah pasal tentang praperadilan adalah __ dan __ ayat. Yaitu : \na."
+      ]
+    },
+    {"tag": "beda_praperadilan",
+      "patterns": ["apa beda praperadilan dan pengadilan?",
+                   "Bagaimana praperadilan berbeda dari persidangan?",
+                   "apa yang membedakan praperadilan dan pengadilan?"
+                   ],
+      "responses": ["Perbedaan praperadilan dan peradilan terletak pada waktu pelaksanaannya. praperadilan dilaksanakan sebelum persidangan dimulai. Dimana praperadilan bertujuan untuk melindungi HAM warga negara indonesia dan dilakukan jika tersangka, terdakwa, atau pihak yang dirugikan terhadap proses penangkapan."]
+    },
+    {"tag": "kasus_praperadilan",
+      "patterns": ["apa saja yang bisa diajukan dalam praperadilan?",
+                   "praperadilan mengajukan",
+                   "pelanggaran yang bisa diajukan praperadilan"
+                   ],
+      "responses": ["Yang bisa diajukan dalam praperadilan adalah, sah atau tidaknya suatu penangkapan atau penahanan diajukan oleh tersangka, keluarga, atau kuasanya kepada ketua pengadilan negeri dengan menyebutkan alasannya."]
+    },
+    {"tag": "pengajuan_Praperadilan",
+      "patterns": [
+        "Siapa yang berhak mengajukan Praperadilan?",
+        "Proses pengajuan Praperadilan",
+        "Tahapan pengajuan praperadilan",
+        "Siapa yang dapat mengajukan Praperadilan?",
+        "Bagaimana proses awal pengajuan Praperadilan dimulai?",
+        "Apakah hanya tersangka yang dapat mengajukan Praperadilan?",
+        "Ke mana permohonan Praperadilan diajukan?",
+        "Apakah ada aturan tertentu terkait siapa yang dapat mengajukan Praperadilan?",
+        "Bagaimana Praperadilan melibatkan pihak yang dirugikan?",
+        "hak yang dilanggar",
+        "dirugikan",
+        "pihak yang dirugikan",
+        "Siapa pun yang merasa hak-haknya dilanggar, termasuk tersangka, terdakwa, atau pihak yang dirugikan, dapat mengajukan Praperadilan. Proses pengajuan Praperadilan dimulai dengan mengajukan permohonan ke pengadilan yang berwenang sesuai dengan peraturan perundang-undangan yang berlaku.",
+        "hak",
+        "berhak",
+        "mengajukan praperadilan"
+      ],
+      "responses": [
+        "\nSiapa pun yang merasa hak-haknya dilanggar, termasuk tersangka, terdakwa, atau pihak yang dirugikan, dapat mengajukan Praperadilan.\nProses pengajuan Praperadilan dimulai dengan mengajukan permohonan ke pengadilan yang berwenang sesuai dengan peraturan perundang-undangan yang berlaku."
+      ]
+    },
+    {"tag": "untung_praperadilan",
+      "patterns": ["apa untungnya praperadilan?",
+                   "untung praperadilan",
+                   "fungsi praperadilan",
+                   "praperadilan untuk apa",
+                   "untuk praperadilan",
+                   "praperadilan untuk apa sih?"
+                   ],
+      "responses": ["Praperadilan berfungsi untuk melindungi HAM dari warga negara indonesia."]
+    },
+    {"tag": "Penyidik",
+      "patterns": ["Penyidik",
+                   "siapa penyidik?",
+                   "siapa itu penyidik?",
+                   "apa itu penyidik",
+                   "siapa yang menyidiki"
+                   ],
+      "responses": [
+        "\n Penyidik adalah pejabat polisi negara Republik Indonesia atau pejabat pegawai negeri sipil tertentu yang diberi wewenang khusus oleh undang-undang untuk melakukan penyidikan. "
+      ]
+    },
+    {"tag": "Penyidikan",
+      "patterns": ["Penyidikan",
+                   "apa penyidikan?",
+                   "tindakan penyidikan?",
+                   "apa itu penyidikan",
+                   "maksud penyidikan"
+                   ],
+      "responses": [
+        "\n Penyidikan adalah serangkaian tindakan penyidik dalam hal dan menurut cara yang diatur dalam undang-undang ini untuk mencari serta mengumpulkan bukti yang dengan bukti itu membuat terang tentang tindak pidana yang terjadi dan guna menemukan tersangkanya."
+      ]
+    },
+    {"tag": "Penyidik_pembantu",
+      "patterns": ["Penyidik pembantu",
+                   "apa penyidik pembantu?",
+                   "siapa itu penyidik pembantu?",
+                   "apa itu penyidik pembantu",
+                   "maksud penyidik pembantu",
+                   "definisi penyidik pembantu"
+                   ],
+      "responses": [
+        "\nPenyidik pembantu adalah pejabat kepolisian negara Republik Indonesia yang karena diberi wewenang tertentu dapat melakukan tugas penyidikan yang diatur dalam undang-undang ini"
+      ]
+    },
+    {"tag": "Penyelidik",
+      "patterns": ["Penyelidik",
+                   "apa Penyelidik?",
+                   "siapa itu Penyelidik?",
+                   "apa itu Penyelidik",
+                   "maksud Penyelidik",
+                   "definisi Penyelidik"
+                   ],
+      "responses": [
+        "\nPenyelidik adalah pejabat polisi negara Republik Indonesia yang diberi wewenang oleh undang-undang ini untuk melakukan penyelidikan."
+      ]
+    },
+    {"tag": "Penyelidikan",
+      "patterns": ["Penyelidikan",
+                   "apa Penyelidikan?",
+                   "tindakan Penyelidikan?",
+                   "apa itu Penyelidikan",
+                   "maksud Penyelidikan"
+                   ],
+      "responses": [
+        "\n Penyelidikan adalah serangkaian tindakan penyelidik untuk mencari dan menemukan suatu peristiwa yang diduga sebagai tindak pidana guna menentukan dapat atau tidaknya dilakukan penyidikan menurut cara yang diatur dalam undang-undang ini."
+      ]
+    },
+    {"tag": "Jaksa",
+      "patterns": ["Jaksa",
+                   "apa Jaksa?",
+                   "siapa itu Jaksa?",
+                   "apa itu Jaksa",
+                   "maksud Jaksa",
+                   "definisi Jaksa"
+                   ],
+      "responses": [
+        "\nJaksa adalah pejabat yang diberi wewenang oleh undang-undang ini untuk bertindak sebagai penuntut umum serta melaksanakan putusan pengadilan yang telah memperoleh kekuatan hukum tetap"
+      ]
+    },
+    {"tag": "Penuntut_umum",
+      "patterns": ["Penuntut umum",
+                   "apa Penuntut umum?",
+                   "siapa itu Penuntut umum?",
+                   "apa itu Penuntut umum",
+                   "maksud Penuntut umum",
+                   "definisi Penuntut umum"
+                   ],
+      "responses": [
+        "\n Penuntut umum adalah jaksa yang diberi wewenang oleh undang-undang ini untuk melakukan penuntutan dan melaksanakan penetapan hakim. "
+      ]
+    },
+    {"tag": "Penuntutan",
+      "patterns": ["Penuntutan",
+                   "apa Penuntutan?",
+                   "siapa itu Penuntutan?",
+                   "apa itu Penuntutan",
+                   "maksud Penuntutan",
+                   "definisi Penuntutan"
+                   ],
+      "responses": [
+        "\n Penuntutan adalah tindakan penuntut umum untuk melimpahkan perkara pidana ke pengadilan negeri yang berwenang dalam hal dan menurut cara yang diatur dalam undang-undang ini dengan permintaan supaya diperiksa dan diputus oleh hakim di sidang pengadilan. "
+      ]
+    },
+    {"tag": "Hakim",
+      "patterns": ["Hakim",
+                   "apa Hakim?",
+                   "siapa itu Hakim?",
+                   "apa itu Hakim",
+                   "maksud Hakim",
+                   "definisi Hakim"
+                   ],
+      "responses": [
+        "\n Hakim adalah pejabat peradilan negara yang diberi wewenang oleh undang-undang untuk mengadili."
+      ]
+    },
+    {"tag": "Mengadili",
+      "patterns": ["Mengadili",
+                   "apa Mengadili?",
+                   "siapa itu Mengadili?",
+                   "apa itu Mengadili",
+                   "maksud Mengadili",
+                   "definisi Mengadili"
+                   ],
+      "responses": [
+        "\n Mengadili adalah serangkaian tindakan hakim untuk menerima, memeriksa, dan memutus perkara pidana berdasarkan asas bebas, jujur, dan tidak memihak di sidang pengadilan dalam hal dan menurut cara yang diatur dalam undang-undang ini."
+      ]
+    },
+    {"tag": "Putusan_pengadilan",
+      "patterns": [
+        "Apa itu Putusan pengadilan?",
+        "Definisi Putusan pengadilan",
+        "Putusan pengadilan",
+        "pengertian Putusan pengadilan",
+        "Apa yang dimaksud dengan Putusan pengadilan?",
+        "Putusan pengadilan?"
+      ],
+      "responses": [
+        "\nPutusan pengadilan adalah pernyataan hakim yang diucapkan dalam sidang pengadilan terbuka, yang dapat berupa pemidanaan atau bebas atau lepas dan segala tuntutan hukum dalam hal serta menurut cara yang diatur dalam undang-undang ini."
+      ]
+    },
+    {"tag": "Upaya_hukum",
+      "patterns": [ "Apa itu Upaya hukum?",
+                    "Definisi Upaya hukum",
+                    "Upaya hukum",
+                    "pengertian Upaya hukum",
+                    "Apa yang dimaksud dengan Upaya hukum?",
+                    "upaya"
+                  ],
+      "responses": [
+        "\nUpaya hukum adalah hak terdakwa atau penuntut umum untuk tidak menerima putusan pengadilan yang berupa perlawanan atau banding atau kasasi atau hak terpidana untuk mengajukan permohonan peninjauan kembali dalam hal serta menurut cara yang diatur dalam undang-undang ini."
+      ]
+    },
+    {"tag": "Penasihat_hukum",
+      "patterns": ["Penasihat hukum",
+                   "apa Penasihat hukum?",
+                   "siapa itu Penasihat hukum?",
+                   "apa itu Penasihat hukum",
+                   "maksud Penasihat hukum",
+                   "definisi Penasihat hukum",
+                   "penasihat"
+                   ],
+      "responses": [
+        "\nPenasihat hukum adalah seorang yang memenuhi syarat yang ditentukan oleh atau berdasarkan undang-undang untuk memberi bantuan hukum."
+      ]
+    },
+    {"tag": "Tersangka",
+      "patterns": ["Tersangka",
+                   "apa Tersangka?",
+                   "siapa itu Tersangka?",
+                   "apa itu Tersangka",
+                   "maksud Tersangka",
+                   "definisi Tersangka"
+                   ],
+      "responses": [
+        "\n Tersangka adalah seorang yang karena perbuatannya atau keadaannya berdasarkan bukti permulaan patut diduga sebagai pelaku tindak pidana. "
+      ]
+    },
+    {"tag": "Terdakwa",
+      "patterns": ["Terdakwa",
+                   "apa Terdakwa?",
+                   "siapa itu Terdakwa?",
+                   "apa itu Terdakwa",
+                   "maksud Terdakwa",
+                   "definisi Terdakwa"
+                   ],
+      "responses": [
+        "\n Terdakwa adalah seorang tersangka yang dituntut, diperiksa dan diadili di sidang pengadilan."
+      ]
+    },
+    {"tag": "Penyitaan",
+      "patterns": [
+        "Apa itu Penyitaan?",
+        "Definisi Penyitaan",
+        "Penyitaan",
+        "pengertian Penyitaan",
+        "Apa yang dimaksud dengan Penyitaan?"
+      ],
+      "responses": [
+        "\nPenyitaan adalah serangkaian tindakan penyidik untuk mengambil alih dan atau menyimpan di bawah penguasaannya benda bergerak atau tidak bergerak, berwujud atau tidak berwujud untuk kepentingan pembuktian dalam penyidikan, penuntutan dan peradilan."
+      ]
+    },
+    {"tag": "Penggeledahan_rumah",
+      "patterns": [
+        "Apa itu Penggeledahan rumah?",
+        "Definisi Penggeledahan rumah",
+        "Penggeledahan rumah",
+        "pengertian Penggeledahan rumah",
+        "Apa yang dimaksud dengan Penggeledahan rumah?"
+      ],
+      "responses": [
+        "\nPenggeledahan rumah adalah tindakan penyidik untuk memasuki rumah tempat tinggal dan tempat tertutup Iainnya untuk melakukan tindakan pemeriksaan dan atau penyitaan dan atau penangkapan dalam hal dan menurut cara yang diatur dalam undang-undang."
+      ]
+    },
+    {"tag": "Penggeledahan_badan",
+      "patterns": [
+        "Apa itu Penggeledahan badan?",
+        "Definisi Penggeledahan badan",
+        "Penggeledahan badan",
+        "pengertian Penggeledahan badan",
+        "Apa yang dimaksud dengan Penggeledahan badan?"
+      ],
+      "responses": [
+        "\nPenggeledahan badan adalah tindakan penyidik untuk mengadakan pemeriksaan badan dan atau pakaian tersangka untuk mencari benda yang diduga keras ada pada badannya atau dibawanya serta, untuk disita. "
+      ]
+    },
+    {"tag": "Tertangkap_tangan",
+      "patterns": [
+        "Apa itu Tertangkap tangan?",
+        "Definisi Tertangkap tangan",
+        "Tertangkap tangan",
+        "pengertian Tertangkap tangan",
+        "Apa yang dimaksud dengan Tertangkap tangan?"
+      ],
+      "responses": [
+        "\nTertangkap tangan adalah tertangkapnya seorang pada waktu sedang melakukan tindak pidana, atau dengan segera sesudah beberapa saat tindak pidana itu dilakukan, atau sesaat kemudian diserukan oleh khalayak ramai sebagai orang yang melakukannya, atau apabila sesaat kemudian padanya ditemukan benda yang diduga keras telah dipergunakan untuk melakukan tindak pidana itu yang menunjukkan bahwa ia adalah pelakunya atau turut melakukan atau membantu melakukan tindak pidana itu."
+      ]
+    },
+    {"tag": "Penangkapan",
+      "patterns": [
+        "Apa itu Penangkapan?",
+        "Definisi Penangkapan",
+        "Penangkapan",
+        "Penagkapan",
+        "pengertian Penangkapan",
+        "Apa yang dimaksud dengan Penangkapan?"
+      ],
+      "responses": [
+        "\nPenangkapan adalah suatu tindakan penyidik berupa pengekangan sementara waktu kebebasan tersangka atau terdakwa apabila terdapat cukup bukti guna kepentingan penyidikan atau penuntutan dan atau peradilan dalam hal serta menurut cara yang diatur dalam undang-undang ini."
+      ]
+    },
+    {"tag": "Penahanan",
+      "patterns": [
+        "Apa itu Penahanan?",
+        "Definisi Penahanan",
+        "Penahanan",
+        "pengertian Penahanan",
+        "Apa yang dimaksud dengan Penahanan?"
+      ],
+      "responses": [
+        "\nPenahanan adalah penempatan tersangka atau terdakwa di tempat tertentu oleh penyidik atau penuntut umum atau hakim dengan penetapannya, dalam hal serta menurut cara yang diatur dalam undang-undang ini."
+      ]
+    },
+    {"tag": "Ganti_kerugian",
+      "patterns": [
+        "Apa itu Ganti kerugian?",
+        "Definisi Ganti kerugian",
+        "Ganti kerugian",
+        "pengertian Ganti kerugian",
+        "Apa yang dimaksud dengan Ganti kerugian?",
+        "rugi",
+        "ganti rugi",
+        "ganti kerugian"
+      ],
+      "responses": [
+        "\nGanti kerugian adalah hak seorang untuk mendapat pemenuhan atas tuntutannya yang berupa imbalan sejumlah uang karena ditangkap, ditahan, dituntut ataupun diadili tanpa alasan yang berdasarkan undang-undang atau karena kekeliruan mengenai orangnya atau hukum yang diterapkan menurut cara yang diatur dalam undang-undang ini."
+      ]
+    },
+    {"tag": "Rehabilitasi",
+      "patterns": [
+        "Apa itu Rehabilitasi?",
+        "Definisi Rehabilitasi",
+        "Rehabilitasi",
+        "pengertian Rehabilitasi",
+        "Apa yang dimaksud dengan Rehabilitasi?",
+        "rehabilitasi",
+        "pemulihan",
+        "kerugian mental",
+        "pemulihan hanya dalam kemampuan, kedudukan dan harkat serta martabatnya",
+        "kedudukan",
+        "harkat martabat",
+        "harkatmartabat"
+      ],
+      "responses": [
+        "\nRehabilitasi adalah hak seorang untuk mendapat pemulihan hanya dalam kemampuan, kedudukan dan harkat serta martabatnya yang diberikan pada tingkat penyidikan, penuntutan atau peradilan karena ditangkap, ditahan, dituntut ataupun diadili tanpa alasan yang berdasarkan undang-undang atau karena kekeliruan mengenai orangnya atau hukum yang diterapkan menurut cara yang diatur dalam undang-undang ini."
+      ]
+    },
+    {"tag": "Laporan",
+      "patterns": [
+        "Apa itu Laporan?",
+        "Definisi Laporan",
+        "Laporan",
+        "pengertian Laporan",
+        "Apa yang dimaksud dengan Laporan?"
+      ],
+      "responses": [
+        "\nLaporan adalah pemberitahuan yang disampaikan oleh seorang karena hak atau kewajiban berdasarkan undang-undang kepada pejabat yang berwenang tentang telah atau sedang atau diduga akan terjadinya peristiwa pidana."
+      ]
+    },
+    {"tag": "Pengaduan",
+      "patterns": [
+        "Apa itu Pengaduan?",
+        "Definisi Pengaduan",
+        "Pengaduan",
+        "pengertian Pengaduan",
+        "Apa yang dimaksud dengan Pengaduan?"
+      ],
+      "responses": [
+        "\nPengaduan adalah pemberitahuan disertai permintaan oleh pihak yang berkepentingan kepada pejabat yang berwenang untuk menindak menurut hukum seorang yang telah melakukan tindak pidana aduan yang merugikannya."
+      ]
+    },
+    {"tag": "Saksi",
+      "patterns": [
+        "Apa itu Saksi?",
+        "Definisi Saksi",
+        "Saksi",
+        "pengertian Saksi",
+        "Apa yang dimaksud dengan Saksi?"
+      ],
+      "responses": [
+        "\nSaksi adalah orang yang dapat memberikan keterangan guna kepentingan penyidikan, penuntutan dan peradilan tentang suatu perkara pidana yang ia dengar sendiri, ia Iihat sendiri dan ia alami sendiri."
+      ]
+    },
+    {"tag": "Keterangan_saksi",
+      "patterns": [
+        "Apa itu Keterangan saksi?",
+        "Definisi Keterangan saksi",
+        "Keterangan saksi",
+        "pengertian Keterangan saksi",
+        "Apa yang dimaksud dengan Keterangan saksi?",
+        "keterangan"
+      ],
+      "responses": [
+        "\nKeterangan saksi adalah salah satu alat bukti dalam perkara pidana yang berupa keterangan dari saksi mengenai suatu peristiwa pidana yang ia dengar sendiri, Ia lihat sendiri dan ia alami sendiri dengan menyebut alasan dan pengetahuannya itu. "
+      ]
+    },
+    {"tag": "Keterangan_ahli",
+      "patterns": [
+        "Apa itu Keterangan ahli?",
+        "Definisi Keterangan ahli",
+        "Keterangan ahli",
+        "pengertian Keterangan ahli",
+        "Apa yang dimaksud dengan Keterangan ahli?",
+        "keterangan"
+      ],
+      "responses": [
+        "\nKeterangan ahli adalah keterangan yang diberikan oleh seorang yang memiliki keahlian khusus tentang hal yang diperlukan untuk membuat terang suatu perkara pidana guna kepentingan pemeriksaan"
+      ]
+    },
+    {"tag": "Keterangan_anak",
+      "patterns": [
+        "Apa itu Keterangan anak?",
+        "Definisi Keterangan anak",
+        "Keterangan anak",
+        "pengertian Keterangan anak",
+        "Apa yang dimaksud dengan Keterangan anak?"
+      ],
+      "responses": [
+        "\nKeterangan anak adalah keterangan yang diberikan oleh seorang anak tentang hal yang diperlukan untuk membuat terang suatu perkara pidana guna kepentingan pemeriksaan dalam hal serta menurut cara yang diatur dalam undang-undang ini."
+      ]
+    },
+    {"tag": "Keluarga",
+      "patterns": [
+        "Apa itu Keluarga?",
+        "Definisi Keluarga",
+        "Keluarga",
+        "pengertian Keluarga",
+        "Apa yang dimaksud dengan Keluarga?"
+      ],
+      "responses": [
+        "\nKeluarga adalah mereka yang mempunyai hubungan darah sampai derajat tertentu atau hubungan perkawinan dengan mereka yang terlibat dalam suatu proses pidana sebagaimana diatur dalam undang-undang ini."
+      ]
+    },
+    {"tag": "Satu_hari",
+      "patterns": [
+        "Apa itu Satu hari?",
+        "Definisi Satu hari",
+        "Satu hari",
+        "pengertian Satu hari",
+        "Apa yang dimaksud dengan Satu hari?"
+      ],
+      "responses": [
+        "\nSatu hari adalah dua puluh empat jam dan satu bulan adalah waktu tiga puluh hari."
+      ]
+    },
+    {"tag": "Terpidana",
+      "patterns": [
+        "Apa itu Terpidana?",
+        "Definisi Terpidana",
+        "Terpidana",
+        "pengertian Terpidana",
+        "Apa yang dimaksud dengan Terpidana?"
+      ],
+      "responses": [
+        "\nTerpidana adalah seorang yang dipidana berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap."
+      ]
+    },
+    {"tag": "Pasal_77",
+      "patterns": ["Wewenang pengadilan negeri dalam Praperadilan pasal 77 KUHP",
+                   "Wewenang pengadilan negeri dalam Praperadilan",
+                   "Pasal 77 KUHAP",
+                   "77",
+                   "77 KUHAP",
+                   "KUHAP 77",
+                   "wewenang",
+                   "Wewenang pengadilan negeri pada pasal 77 KUHP",
+                   "Wewenang pengadilan negeri",
+                   "pengadilan negeri dalam Praperadilan menurut pasal 77 KUHP",
+                   "pengadilan negeri dalam Praperadilan"
+      ],
+      "responses": [
+        "\nMenurut pasal 77 KUHAP, Pengadilan negeri berwenang untuk memeriksa dan memutus tentang: \n  a. Sah atau tidaknya penangkapan, penahanan, penghentian penyidikan, atau penghentian penuntutan.\n  b. Ganti kerugian dan atau rehabilitasi bagi seorang yang perkara pidananya dihentikan pada tingkat penyidikan atau penuntutan."
+      ]
+    },
+    {"tag": "pasal_78",
+      "patterns": ["pelaksanaan Wewenang pengadilan negeri dalam Praperadilan pasal 78 KUHP",
+                   "pelaksanaan Wewenang pengadilan negeri dalam Praperadilan",
+                   "Pasal 78 KUHAP",
+                   "78",
+                   "78 KUHAP",
+                   "KUHAP 78",
+                   "pelaksanaan wewenang",
+                   "Wewenang pengadilan negeri pada pasal 78 KUHP",
+                   "Wewenang pengadilan negeri",
+                   "pelaksanaan pengadilan negeri dalam Praperadilan menurut pasal 78 KUHP",
+                   "pelaksanaan pengadilan negeri dalam Praperadilan",
+                   "pelaksanaan"
+                   ],
+      "responses": [
+        "\nMenurut pasal 78 KUHAP, pelaksanaan wewenang pengadilan dilakukan dengan ketentuan : \n (1) Praperadilan dipimpin oleh hakim tunggal yang ditunjuk oleh ketua pengadilan negeri dan dibantu oleh seorang panitera.\n (2) Yang melaksanakan wewenang pengadilan negeri sebagaimana dimaksud dalam Pasal 77 adalah praperadilan."
+      ]
+    },
+    {
+      "tag": "Pasal_79",
+      "patterns": ["Permintaan pemeriksaan menurut Pasal 79",
+                   "permintaan pemeriksaan",
+                   "Pasal 79",
+                   "Pemeriksaan menurut pasal 79",
+                   "79",
+                   "79 KUHAP",
+                   "KUHAP 79",
+                   "sah atau tidaknya suatu penangkapan atau penahanan",
+                   "diajukan oleh tersangka, keluarga, atau kuasanya",
+                   "kepada ketua pengadilan negeri",
+                   "pemeriksaan"
+                   ],
+      "responses": [
+        "\nMenurut pasal 79 KUHAP, permintaan pemeriksaan tentang sah atau tidaknya suatu penangkapan atau penahanan diajukan oleh tersangka, keluarga, atau kuasanya kepada ketua pengadilan negeri dengan menyebutkan alasannya."
+      ]
+    },
+    {"tag": "Pasal_80",
+      "patterns": ["Permintaan pemeriksaan menurut Pasal 80",
+                   "Pasal 80",
+                   "Permintaan pemeriksaan",
+                   "pemeriksaan menurut pasal 80",
+                   "80",
+                   "80 KUHAP",
+                   "KUHAP 80",
+                   "pemeriksaan",
+                   "sah atau tidaknya suatu penghentian penyidikan",
+                   "diajukan oleh penyidik, penuntut umum, atau pihak ketiga yang berkepentingan",
+                   "penghentian penyidikan"
+                   ],
+      "responses": [
+        "\nMenurut pasal 80 KUHAP, Permintaan untuk memeriksa sah atau tidaknya suatu penghentian penyidikan atau penuntutan dapat diajukan oleh penyidik, penuntut umum, atau pihak ketiga yang berkepentingan kepada ketua pengadilan negeri dengan menyebutkan alasannya."
+      ]
+    },
+    {"tag": "Pasal_81",
+      "patterns": ["Permintaan ganti rugi kerugian menurut Pasal 81",
+                   "Permintaan rehabilitasi menurut Pasal 81",
+                   "Permintaan ganti rugi dan rehabilitasi menurut Pasal 81",
+                   "Pemeriksaan menurut pasal 81",
+                   "pasal 81",
+                   "81",
+                   "81 KUHAP",
+                   "KUHAP 81",
+                   "akibat tidak sahnya penangkapan atau penahanan",
+                   "ganti rugi dan rehabilitasi",
+                   "ganti rugi",
+                   "rehabilitasi"
+                   ],
+      "responses": [
+        "\nMenurut pasal 81 KUHAP, Permintaan ganti kerugian dan atau rehabilitasi akibat tidak sahnya penangkapan atau penahanan, atau akibat sahnya penghentian penyidikan atau penuntutan diajukan oleh tersangka atau pihak ketiga yang berkepentingan kepada ketua pengadilan negeri dengan menyebut alasannya."
+       ]
+    },
+    {"tag": "Pasal_82",
+      "patterns": ["Proses pemeriksaan praperadilan menurut Pasal 82",
+                   "Pasal 82",
+                   "pemeriksaan praperadilan menurut Pasal 82",
+                   "praperadilan menurut Pasal 82",
+                   "pasal 82 ayat 1",
+                   "82",
+                   "82 KUHAP",
+                   "KUHAP 82",
+                   "penjelasan Pasal 79, Pasal 80 dan Pasal 81"
+                  ],
+      "responses": [
+        "\nMenurut pasal 82 KUHAP : \n(1) Acara pemeriksaan praperadilan untuk hal sebagaimana dimaksud dalam Pasal 79, Pasal 80 dan Pasal 81 ditentukan sebagai berikut: \n a. Dalam waktu tiga hari setelah diterimanya permintaan, hakim yang ditunjuk menetapkan hari sidang; \n b. Dalam memeriksa dan memutus tentang sah atau tidaknya penangkapan atau penahanan, sah atau tidaknya penghentian penyidikan atau penuntutan; permintaan ganti kerugian dan atau rehabilitasi akibat tidak sahnya penangkapan atau penahanan, akibat sahnya penghentian penyidikan atau penuntutan dan ada benda yang disita yang tidak termasuk alat pembuktian, hakim mendengar keterangan baik dan tersangka atau pemohon maupun dan pejabat yang berwenang; \n c. Pemeriksaan tersebut dilakukan cara cepat dan selambat-lambatnya tujuh hari hakim harus sudah menjatuhkan putusannya;\n d. Dalam hal suatu perkara sudah mulai diperiksa oleh pengadilan negeri sedangkan pemeriksaan mengenai permintaan kepada praperadilan belum selesai, maka permintaan tersebut gugur; \n e. Putusan praperadilan pada tingkat penyidikan tidak menutup kemungkinan untuk mengadakan pemeriksaan praperadilan lagi pada tingkat pemeriksaan oleh penuntut umum, jika untuk itu diajukan permintaan baru. \n(2) Putusan hakim dalam acara pemeriksaan praperadilan mengenai hal sebagaimana dimaksud dalam Pasal 79, Pasal 80 dan Pasal 81, harus memuat dengan jelas dasar dan alasannya. \n(3) Isi putusan selain memuat ketentuan sebagaimana dimaksud dalam ayat (2) juga memuat hal sebagai berikut : \n a. Dalam hal putusan menetapkan bahwa sesuatu penangkapan atau penahanan tidak sah; maka penyidik atau jaksa penuntut umum pada tingkat pemeriksaan masing-masing harus segera membebaskan tersangka; \n b. Dalam hal putusan menetapkan bahwa sesuatu penghentian penyidikan atau penuntutan tidak sah, penyidikan atau penuntutan terhadap tersangka wajib dilanjutkan; \n c. Dalam hal putusan menetapkan bahwa suatu penangkapan atau penahanan tidak sah, maka dalam putusan dicantumkan jumlah besarnya ganti kerugian dan rehabilitasi yang diberikan, sedangkan dalam hal suatu penghentian penyidikan atau penuntutan adalah sah dan tersangkanya tidak ditahan, maka dalam putusan dicantumkan rehabilitasinya; \n d. Dalam hal putusan menetapkan bahwa benda yang disita ada yang tidak termasuk alat pembuktian, maka dalam putusan dicantumkan bahwa benda tersebut harus segera dikembalikan kepada tersangka atau dan siapa benda itu disita. \n(4) Ganti kerugian dapat diminta, yang meliputi hal sebagaimana dimaksud dalam Pasal 77 dan Pasal 95."
+      ]
+    },
+    {"tag": "Pasal_82_ayat_1",
+      "patterns": ["Proses pemeriksaan praperadilan menurut Pasal 82ayat 1",
+                   "Pasal 82 ayat 1",
+                   "pemeriksaan praperadilan menurut Pasal 82 ayat 1",
+                   "praperadilan menurut Pasal 82 ayat 1",
+                   "pasal 82 ayat 1",
+                   "82 ayat 1",
+                   "82 ayat 1 KUHAP",
+                   "KUHAP 82 ayat 1",
+                   "penjelasan Pasal 79, Pasal 80 dan Pasal 81"
+                  ],
+      "responses": [
+        "\nMenurut pasal 82 ayat 1 KUHAP : \n(1) Acara pemeriksaan praperadilan untuk hal sebagaimana dimaksud dalam Pasal 79, Pasal 80 dan Pasal 81 ditentukan sebagai berikut: \n a. Dalam waktu tiga hari setelah diterimanya permintaan, hakim yang ditunjuk menetapkan hari sidang; \n b. Dalam memeriksa dan memutus tentang sah atau tidaknya penangkapan atau penahanan, sah atau tidaknya penghentian penyidikan atau penuntutan; permintaan ganti kerugian dan atau rehabilitasi akibat tidak sahnya penangkapan atau penahanan, akibat sahnya penghentian penyidikan atau penuntutan dan ada benda yang disita yang tidak termasuk alat pembuktian, hakim mendengar keterangan baik dan tersangka atau pemohon maupun dan pejabat yang berwenang; \n c. Pemeriksaan tersebut dilakukan cara cepat dan selambat-lambatnya tujuh hari hakim harus sudah menjatuhkan putusannya;\n d. Dalam hal suatu perkara sudah mulai diperiksa oleh pengadilan negeri sedangkan pemeriksaan mengenai permintaan kepada praperadilan belum selesai, maka permintaan tersebut gugur; \n e. Putusan praperadilan pada tingkat penyidikan tidak menutup kemungkinan untuk mengadakan pemeriksaan praperadilan lagi pada tingkat pemeriksaan oleh penuntut umum, jika untuk itu diajukan permintaan baru."
+      ]
+    },
+    {"tag": "Pasal_82_ayat_2",
+      "patterns": ["Proses pemeriksaan praperadilan menurut Pasal 82 ayat 1",
+                   "Pasal 82 ayat 2",
+                   "pemeriksaan praperadilan menurut Pasal 82 ayat 2",
+                   "praperadilan menurut Pasal 82 ayat 2",
+                   "pasal 82 ayat 2",
+                   "82 ayat 2",
+                   "82 ayat 2 KUHAP",
+                   "KUHAP 82 ayat 2"
+                  ],
+      "responses": [
+        "\nMenurut pasal 82 ayat 2 KUHAP : \n\n(2) Putusan hakim dalam acara pemeriksaan praperadilan mengenai hal sebagaimana dimaksud dalam Pasal 79, Pasal 80 dan Pasal 81, harus memuat dengan jelas dasar dan alasannya."
+      ]
+    },
+    {"tag": "Pasal_82_ayat_3",
+      "patterns": ["Proses pemeriksaan praperadilan menurut Pasal 82 ayat 3",
+                   "Pasal 82 ayat 3",
+                   "pemeriksaan praperadilan menurut Pasal 82 ayat 3",
+                   "praperadilan menurut Pasal 82 ayat 3",
+                   "pasal 82 ayat 3",
+                   "82 ayat 3",
+                   "82 ayat 3 KUHAP",
+                   "KUHAP 82 ayat 3"
+                  ],
+      "responses": [
+        "\nMenurut pasal 82 ayat 3 KUHAP : \n\n(3) Isi putusan selain memuat ketentuan sebagaimana dimaksud dalam ayat (2) juga memuat hal sebagai berikut : \n  a. dalam hal putusan menetapkan bahwa sesuatu penangkapan atau penahanan tidak sah; maka penyidik atau jaksa penuntut umum pada tingkat pemeriksaan masing-masing harus segera membebaskan tersangka; \n  b. dalam hal putusan menetapkan bahwa sesuatu penghentian penyidikan atau penuntutan tidak sah, penyidikan atau penuntutan terhadap tersangka wajib dilanjutkan;\n  c. dalam hal putusan menetapkan bahwa suatu penangkapan atau penahanan tidak sah, maka dalam putusan dicantumkan jumlah besarnya ganti kerugian dan rehabilitasi yang diberikan, sedangkan dalam hal suatu penghentian penyidikan atau penuntutan adalah sah dan tersangkanya tidak ditahan, maka dalam putusan dicantumkan rehabilitasinya; \n  d. dalam hal putusan menetapkan bahwa benda yang disita ada yang tidak termasuk alat pembuktian, maka dalam putusan dicantumkan bahwa benda tersebut harus segera dikembalikan kepada tersangka atau dan siapa benda itu disita."
+      ]
+    },
+    {"tag": "Pasal_82_ayat_4",
+      "patterns": ["Proses pemeriksaan praperadilan menurut Pasal 82 ayat 4",
+                   "Pasal 82 ayat 4",
+                   "pemeriksaan praperadilan menurut Pasal 82 ayat 4",
+                   "praperadilan menurut Pasal 82 ayat 4",
+                   "pasal 82 ayat 4",
+                   "82 ayat 4",
+                   "82 ayat 4 KUHAP",
+                   "KUHAP 82 ayat 4"
+                  ],
+      "responses": [
+        "\nMenurut pasal 82 ayat 4 KUHAP, \n(4) Ganti kerugian dapat diminta, yang meliputi hal sebagaimana dimaksud dalam Pasal 77 dan Pasal 95."
+      ]
+    },
+    {"tag": "Pasal_83",
+      "patterns": ["Banding terhadap putusan praperadilan menurut Pasal 83",
+                   "pasal 83",
+                   "83",
+                   "83 KUHAP",
+                   "KUHAP 83",
+                   "apakah praperadilan dapat mengajukan banding?",
+                   "banding praperadilan"
+                   ],
+      "responses": [
+        "\nMenurut pasal 83 KUHAP, \n(1) Terhadap putusan praperadilan dalam hal sebagaimana dimaksud dalam Pasal 79, Pasal 80, dan Pasal 81 tidak dapat dimintakan banding.\n (2) Dikecualikan dari ketentuan ayat (1) adalah putusan praperadilan yang menetapkan tidak sahnya penghentian penyidikan atau penuntutan yang untuk itu dapat dimintakan putusan akhir ke pengadilan tinggi dalam daerah hukum yang bersangkutan."
+      ]
+    },
+    {"tag": "Pasal95",
+      "patterns": ["pasal 95",
+                   "95",
+                   "95 KUHAP",
+                   "KUHAP 95",
+                   "hak menuntut ganti rugi",
+                   "berhak",
+                   "hak",
+                   "kekeliruan",
+                   "tanpa alasan yang berdasarkan undang-undang"
+                   ],
+      "responses": [
+        "\nMenurut pasal 95 KUHAP, \n(1) Tersangka, terdakwa atau terpidana berhak menuntut ganti kerugian karena ditangkap, ditahan, dituntut dan diadili atau dikenakan tindakan lain, tanpa alasan yang berdasarkan undang-undang atau karena kekeliruan mengenai orangnya atau hukum yang diterapkan. \n(2) Tuntutan ganti kerugian oleh tersangka atau ahli warisnya atas penangkapan atau penahanan serta tindakan lain tanpa alasan yang berdasarkan undang-undang atau karena kekeliruan mengenai orang atau hukum yang diterapkan sebagaimana dimaksud dalarn ayat \n(1) yang perkaranya tidak diajukan ke pengadilan negeri, diputus di sidang praperadilan sebagaimana dimaksud dalam Pasal 77. \n(3) Tuntutan ganti kerugian sebagaimana dimaksud dalam ayat (1) diajukan oleh tersangka, terdakwa, terpidana atau ahli warisnya kapada pengadilan yang berwenang mengadili perkara yang bersangkutan. \n(4) Untuk memeriksa dan memutus perkara tuntutan ganti kerugian tersebut pada ayat (1) ketua pengadilan sejauh mungkin menunjuk hakim yang sama yang telah mengadili perkara pidana yang bersangkutan. \n(5) Pemeriksaan terhadap ganti kerugian sebagaimana tersebut pada ayat (4) mengikuti acara praperadilan. "
+       ]
+    },
+    {"tag": "Pasal95ayat1",
+      "patterns": ["pasal 95 ayat 1",
+                   "95 ayat 1",
+                   "95 1",
+                   "KUHAP 95 ayat 1",
+                   "hak menuntut ganti rugi",
+                   "berhak",
+                   "hak",
+                   "kekeliruan",
+                   "tanpa alasan yang berdasarkan undang-undang"
+                   ],
+      "responses": [
+        "\nMenurut pasal 95 ayat 1 KUHAP, \n(1) Tersangka, terdakwa atau terpidana berhak menuntut ganti kerugian karena ditangkap, ditahan, dituntut dan diadili atau dikenakan tindakan lain, tanpa alasan yang berdasarkan undang-undang atau karena kekeliruan mengenai orangnya atau hukum yang diterapkan."
+       ]
+    },
+    {"tag": "Pasal95ayat2",
+      "patterns": ["pasal 95 ayat 2",
+                   "95 ayat 2",
+                   "95 2",
+                   "KUHAP 95 ayat 2",
+                   "Tuntutan ganti kerugian",
+                   "Tuntutan ganti rugi"
+                   ],
+      "responses": [
+        "\nMenurut pasal 95 aayt 2 KUHAP, \n(2) Tuntutan ganti kerugian oleh tersangka atau ahli warisnya atas penangkapan atau penahanan serta tindakan lain tanpa alasan yang berdasarkan undang-undang atau karena kekeliruan mengenai orang atau hukum yang diterapkan sebagaimana dimaksud dalarn ayat \n(1) yang perkaranya tidak diajukan ke pengadilan negeri, diputus di sidang praperadilan sebagaimana dimaksud dalam Pasal 77."
+       ]
+    },
+    {"tag": "Pasal95ayat3",
+      "patterns": ["pasal 95 ayat 3",
+                   "95 ayat 3",
+                   "95 3",
+                   "KUHAP 95 ayat 3"
+                   ],
+      "responses": [
+        "\nMenurut pasal 95 aayt 3 KUHAP, \n(3) Tuntutan ganti kerugian sebagaimana dimaksud dalam ayat (1) diajukan oleh tersangka, terdakwa, terpidana atau ahli warisnya kapada pengadilan yang berwenang mengadili perkara yang bersangkutan."
+       ]
+    },
+    {"tag": "Pasal95ayat4",
+      "patterns": ["pasal 95 ayat 4",
+                   "95 ayat 4",
+                   "95 4",
+                   "KUHAP 95 ayat 4"
+                   ],
+      "responses": [
+        "\nMenurut pasal 95 aayt 4 KUHAP, \n(4) Untuk memeriksa dan memutus perkara tuntutan ganti kerugian tersebut pada ayat (1) ketua pengadilan sejauh mungkin menunjuk hakim yang sama yang telah mengadili perkara pidana yang bersangkutan."
+       ]
+    },
+    {"tag": "Pasal95ayat5",
+      "patterns": ["pasal 95 ayat 5",
+                   "95 ayat 5",
+                   "95 5",
+                   "KUHAP 95 ayat 5"
+                   ],
+      "responses": [
+        "\nMenurut pasal 95 aayt 5 KUHAP, \n(5) Pemeriksaan terhadap ganti kerugian sebagaimana tersebut pada ayat (4) mengikuti acara praperadilan."
+       ]
+    },
+    {"tag": "Pasal97",
+      "patterns": ["Pasal 97",
+                   "97",
+                   "97 KUHAP",
+                   "KUHAP 97",
+                   "Seorang berhak memperoleh rehabilitasi",
+                   "hak rehabilitasi"
+                   ],
+      "responses": [
+        "\nMenurut pasal 97 KUHAP, \n (1) Seorang berhak memperoleh rehabilitasi apabila oleh pengadilan diputus bebas atau diputus lepas dari segala tuntutan hukum yang putusannya telah mempunyai kekuatan hukum tetap.\n (2) Rehabilitasi tersebut diberikan dan dicantumkan sekaligus dalam putusan pengadilan sebagaimana dimaksud dalam ayat (1).\n (3) Permintaan rehabilitasi oleh tersangka atas penangkapan atau penahanan tanpa alasan yang berdasarkan undang-undang atau kekeliruan mengenai orang atau hukum yang diterapkan sebagaimana dimaksud dalam Pasal 95 ayat (1) yang perkaranya tidak diajukan ke pengadilan negeri diputus oleh hakim praperadilan yang dimaksud dalam Pasal 77. "
+       ]
+    },
+    {"tag": "Pasal97ayat1",
+      "patterns": ["Pasal 97 ayat 1",
+                   "97 1",
+                   "97 ayat 1 KUHAP",
+                   "KUHAP 97 ayat 1"
+                   ],
+      "responses": [
+        "\nMenurut pasal 97 ayat 1 KUHAP, \n (1) Seorang berhak memperoleh rehabilitasi apabila oleh pengadilan diputus bebas atau diputus lepas dari segala tuntutan hukum yang putusannya telah mempunyai kekuatan hukum tetap."
+       ]
+    },
+    {"tag": "Pasal97ayat2",
+      "patterns": ["Pasal 97 ayat 2",
+                   "97 2",
+                   "97 ayat 2 KUHAP",
+                   "KUHAP 97 ayat 2"
+                   ],
+      "responses": [
+        "\nMenurut pasal 97 ayat 2 KUHAP, \n (2) Rehabilitasi tersebut diberikan dan dicantumkan sekaligus dalam putusan pengadilan sebagaimana dimaksud dalam ayat (1)."
+       ]
+    },
+    {"tag": "Pasal97ayat3",
+      "patterns": ["Pasal 97 ayat 3",
+                   "97 3",
+                   "97 ayat 3 KUHAP",
+                   "KUHAP 97 ayat 3",
+                   "Permintaan rehabilitasi"
+                   ],
+      "responses": [
+        "\nMenurut pasal 97 ayat 3 KUHAP, \n \n (3) Permintaan rehabilitasi oleh tersangka atas penangkapan atau penahanan tanpa alasan yang berdasarkan undang-undang atau kekeliruan mengenai orang atau hukum yang diterapkan sebagaimana dimaksud dalam Pasal 95 ayat (1) yang perkaranya tidak diajukan ke pengadilan negeri diputus oleh hakim praperadilan yang dimaksud dalam Pasal 77."
+       ]
+    },
+    {"tag": "Pasal124",
+      "patterns": ["pasal Pasal 124",
+                   "Pasal 124",
+                   "124 1",
+                   "KUHAP 124"
+                   ],
+      "responses": [
+        "\nMenurut pasal 124 KUHAP, \nDaIam hal apakah sesuatu penahanan sah atau tidak sah menurut hukum, tersangka, keluarga atau penasihat hukum dapat mengajukan hal itu kepada pengadilan negeri setempat untuk diadakan praperadilan guna memperoleh putusan apakah penahanan atas diri tersangka tersebut sah atau tidak sah menurut undang-undang ini."
+       ]
+    }
+]
+}
