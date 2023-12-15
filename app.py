@@ -45,8 +45,7 @@ def get_bot_response(user_input):
 
 @app.route('/chat', methods=['POST'])
 def chat():
-    data = request.get_json()
-    user_input = data.get('user_input', '')
+    user_input = request.data.decode('utf-8')  # Mendekode data dari byte menjadi string
     response = get_bot_response(user_input)
     return jsonify({'bot_response': response})
 
